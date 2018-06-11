@@ -23,7 +23,7 @@ read -p "WRITE A NUMBER: (1-4) " option
         else
         mkdir autoporter
         cd autoporter
-        wget 
+        wget https://raw.githubusercontent.com/MCrazy/autoportermt6580/master/autoporter.sh
         chmod 777 autoporter
         git clone https://github.com/xiaolu/mkbootimg_tools
         fi
@@ -57,7 +57,7 @@ read -p "WRITE A NUMBER: (1-4) " option
         if [[ ~/autoporter/autoporter.sh ]]; then
         bash ~/autoporter/autoporter.sh
     else
-        wget
+        wget https://raw.githubusercontent.com/MCrazy/autoportermt6580/master/autoporter.sh
         chmod 777 autoporter
          bash ~/autoporter/autoporter.sh
     fi
@@ -137,7 +137,7 @@ bash ~/autoporter/autoporter.sh
         if [[ -e ~/autoporter/autoporter.sh ]]; then
     bash ~/autoporter/autoporter.sh
     else
-    wget
+    wget https://raw.githubusercontent.com/MCrazy/autoportermt6580/master/autoporter.sh
     chmod 777 autoporter
     bash ~/autoporter/autoporter.sh
     fi
